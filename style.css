@@ -11,9 +11,9 @@ h1
 {
     color: orange;
 }
-section
+.parallel
 {
-    display: flex;
+    display:flex;
 }
 .half-width
 {
@@ -50,3 +50,44 @@ background-repeat: no-repeat;
 background-position: right;
 
 }
+ .shadow
+ {
+     box-shadow: 10px 10px 40px gray;
+     width: 60%;
+     height: 10%;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 5%;
+     padding-left:20px ;
+     border-radius: 10px;
+    
+
+ }
+ h2
+ {
+     font-size: 40px;
+ }
+ .exprience-area
+ {
+    background-image:url(images/exp-bg.png);
+    background-repeat:no-repeat ;
+    background-position: left;
+    
+ }
+ #Expreence-item
+ {
+    border-left: 7px solid;
+    border-image: linear-gradient( blue ,cyan  );
+    border-image-slice: 1;
+
+
+ }
+ #developer
+ {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon ,tomato  );
+    border-image-slice: 1;
+ }
+ footer p{
+     text-align: center;
+ }
